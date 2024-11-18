@@ -65,7 +65,7 @@
 //        self.name = name
 //
 //    def __str__(self):
-//        return f"{self.name} is a {self.species}."
+//        return f"{self.name} is a {self.species}"
 
 // class Dog(Animal):
 //    def __init__(self, name, trick):
@@ -73,4 +73,4 @@
 //        self.trick = trick
 //
 //    def __str__(self):
-//        return f"{super().to_str()} that can {self.trick}"
+//        return f"{super().__str__()} that can {self.trick}"

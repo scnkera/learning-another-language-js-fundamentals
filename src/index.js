@@ -40,11 +40,13 @@
 
 // def fizzbuzz(num):
 //    if num % 3 == 0 and num % 5 == 0:
-//        print("fizzbuzz")
+//        return "fizzbuzz"
 //    elif num % 3 == 0:
-//        print("fizz")
+//        return "fizz"
 //    elif num % 5 == 0:
-//        print("buzz")
+//        return "buzz"
+//    else:
+//        return num
 
 // Old way: Function Declaration
 

@@ -4,6 +4,11 @@
 // veggie = "carrot"
 // veggie = "onion"
 
+let veggie = 'carrot';
+console.log({ veggie });
+veggie = 'onion';
+console.log({ veggie });
+
 //
 //
 // =========================
@@ -13,8 +18,21 @@
 // animals = ["tiger", "panda", "raccoon"]
 // animals.append("opossum")
 
+const animals = ['tiger', 'panda', 'raccoon']
+console.log({animals});
+animals.push('opossum');
+console.log({animals});
+
 // dog = {"name": "Sprinkles", "age": 3}
 // dog["is_friendly"] = True
+
+const dog = {
+  name: 'Sprinkles',
+  age: 3,
+};
+console.log({ dog });
+dog.isFriendly = true;
+console.log({ dog });
 
 //
 //
@@ -25,6 +43,19 @@
 // num = 5
 // for i in range(num):
 //    print(i)
+
+const num = 5;
+for (let i = 0; i < num; i += 1){
+  console.log(i);
+}
+
+for (const animal of animals) {
+  console.log(animal);
+}
+
+for (const [key, value] in Object.entries(dog)) {
+  console.log(`${key}: ${value}`);
+}
 
 // for animal in animals:
 //    print(animal)
